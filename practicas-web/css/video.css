@@ -1,0 +1,27 @@
+/* Documento CSS */
+
+* { margin: 0;
+padding: 0;
+}
+
+body {font-family: "Vidaloka", serif;}
+
+/* Headers */
+
+h1{ font-weight: 900;
+font-size : 3em;
+text-align: center;
+padding-bottom: 16px;
+border-bottom:3 px solid #000;
+width: 70%;
+margin: 0 auto;
+} 
+h2 { text-align: center;
+text-transform: uppercase;
+text-decoration: underline;
+font-weight: 700;
+}
+
+/*Layout*/
+.container { width: 60%;
+margin: 0 auto;}
