@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #fff;
+    color: #0f0f0f;
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px 20px;}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px 40px;
+}
+
+.video {
+    width: 31%;
+    max-width: 550px;}
+
+
+.player {
+    position: relative;}
+
+.video iframe {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 12px;
+}
+
+.duracion {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 1px 4px;
+    border-radius: 4px;
+    pointer-events: none;}
+
+.info {
+    display: flex;
+    gap: 12px;
+    padding-top: 12px;
+}
+
+.avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.texto {
+    flex: 1;
+}
+
+.texto h3 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 4px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.texto p {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #606060;
+}
+
+.menu {
+    font-size: 18px;
+    font-weight: 700;
+    flex-shrink: 0;
+}
